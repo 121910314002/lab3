@@ -1,0 +1,74 @@
+#program to take choice from user amd perform paricular operation on array 
+
+n = int(input("enter size of the array : "))
+a = []
+b = [None]*n
+print("enter "+str(n)+" numbers in array:")
+for i in range(0,n):
+    num = int(input())
+    a.append(num)
+m = int(input("enter a number between 1 to 4 :"))
+if m==1:
+    print("Array 1: ",a)
+    for i in range(0,n):
+        b[i] = a[i]
+        
+    x = 5
+elif m==2:
+   print("Array 1: ",a) 
+   b = []
+   for i in A1:
+        if i not in b :
+            b.append(i)
+            x = 5
+elif m==3:
+    y = int(input("enter the index number that have to delete :"))
+    del a[y:y+1]
+    x = 5
+elif m==4:
+    print("Array is : ",a)
+    s = int(input("enter number to search : "))
+    def search(s):
+        for i in range(0,n) :
+            if s == a[i]:
+                return i+1
+    x = 5
+if x==5:
+    if m==1:
+        print("Array 2: ",b)
+    elif m==2:
+        print("Array 2: ",b)
+    elif m==3:
+        print("Array 1: ",a)
+    elif m==4:
+        print(str(s)+" is found at location ",search(s))
+else:
+    print("Invalid entry!enter a number between 1 to 4")
+    
+    
+output:
+enter size of the array : 
+5
+enter 5 numbers in array:
+1
+2
+3
+4
+5
+enter a number between 1 to 4 :
+3
+enter the index number that have to delete :
+4
+Array 1:  [1, 2, 3, 4]
+
+
+
+
+
+
+
+
+
+
+
+
