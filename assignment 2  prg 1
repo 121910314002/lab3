@@ -1,0 +1,13 @@
+# program on concatenate arrays
+
+array1= [1, 2, 3, 4, 5, 6]  #initialization of first array 
+array2= [6, 5, 4, 3, 2, 1]  #initialization of second array
+
+
+array1= array1 + array2  #to concatenate arrays by using "+"
+
+print ("Concatenated array using + : " + str(array1))  # the printing statement of an concatenated array
+
+
+output
+Concatended array using + :  [1, 2, 3, 4, 5, 6, 6, 5, 4, 3, 2, 1]
