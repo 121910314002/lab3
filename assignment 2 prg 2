@@ -1,0 +1,14 @@
+# program to search for an element in an array by calling function
+
+def linearsearch(arr, x):
+   for i in range(len(arr)):
+      if arr[i] == x:
+         return i
+   return -1
+arr = ['o','n','l','i','n','e']
+x ="e"
+print("element found at index "+str(linearsearch(arr,x)))
+
+output:
+element found at index 5
+ 
